@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AdMob_xamarin_forms_setup.Page2"
+             xmlns:ads="clr-namespace:AdMob_xamarin_forms_setup.Controls;assembly=AdMob_xamarin_forms_setup"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Page 2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="This is page 2"  BackgroundColor="Blue" Pressed="Button_Pressed"/>
+            <ads:AdControlView BackgroundColor="Red" HeightRequest="50" VerticalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
